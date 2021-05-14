@@ -89,15 +89,6 @@ function my_key_down(e) {
         console.log ("key w");
     }
 
-    if (car1_x > 700){
-        console.log ("Car 1 Won!");
-        document.getElementById("game_status").innerHTML= "Car 1 Won!"
-    }
-
-    if (car2_x > 700){
-        console.log ("Car 2 Won!");
-        document.getElementById("game_status").innerHTML= "Car 2 Won!"
-    }
 }
 
 
